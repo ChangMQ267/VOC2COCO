@@ -30,8 +30,8 @@ if __name__ == '__main__':
     AnnoPath = PATH + "/Annotations/"
 
     SAVE_PATH = PATH + "/dataset_voc/"
-    imagesPath = SAVE_PATH + "images/"
-    xmlPath = SAVE_PATH + "annotations/"
+    imagesPath = SAVE_PATH + "JPEGImages/"
+    xmlPath = SAVE_PATH + "Annotations/"
 
     os.mkdir(SAVE_PATH)
     os.mkdir(imagesPath)
