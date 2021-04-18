@@ -10,7 +10,7 @@ import numpy as np
 im = Image.new("RGB", (608, 608), "white")  # 生成608X608的白色图片，可以根据自己的需求改变
 imndarray = np.array(im)
 
-path = "E:/Workspaces/Data(20210320)/source"  # 原图所在文件夹路径
+path = "Datalast_CUT/IMG_1414"  # 原图所在文件夹路径
 path1 = path + "NEW"  # 处理完图片的保存路径
 try:
     os.mkdir(path1)

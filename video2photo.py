@@ -30,9 +30,9 @@ def video_split(video_path, save_path):
 
 if __name__ == '__main__':
 
-    DATA_DIR = "video"  # 视频数据主目录
+    DATA_DIR = "DATA"  # 视频数据主目录
 
-    SAVE_DIR = "videoPhoto"  # 帧文件保存目录
+    SAVE_DIR = "videoToPhoto"  # 帧文件保存目录
 
     start_time = time.time()
     for parents, dirs, filenames in os.walk(DATA_DIR):
